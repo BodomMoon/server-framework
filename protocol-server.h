@@ -256,7 +256,7 @@ extern const struct __SERVER_API__ {
      * \brief Hijack a socket (file descriptor) from the server, clearing
      *        up its resources.
      *
-     * The control of hte socket is totally relinquished.
+     * The control of the socket is totally relinquished.
      *
      * This method will block until all the data in the buffer is sent
      * before releasing control of the socket.
